@@ -69,7 +69,7 @@ def control_loop(cf, duration=10, dt=0.02):
                                    0,  # yaw rate
                                    int(thrust / g * 60000))  # aproximação de thrust
 
-        # Aqui usarias feedback real do estado com logs (não simulado)
+        # Aqui deviamos aplicar feedback real do estado com logs
         # p = ...
         # v = ...
         time.sleep(dt)
